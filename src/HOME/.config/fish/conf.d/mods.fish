@@ -127,8 +127,8 @@ if status --is-interactive
     abbr --add gs 'git status'
     abbr --add gsh 'git show'
     abbr --add ga 'git add'
-    abbr --add gc "git commit$sign_upper -m"
-    abbr --add gca "git commit$sign_upper --amend"
+    abbr --add gc "git commit -m"
+    abbr --add gca "git commit --amend"
     abbr --add gl 'git log'
     abbr --add gp 'git push'
     abbr --add gpt 'git push --tags'
@@ -137,16 +137,16 @@ if status --is-interactive
     abbr --add gcl 'git clone'
     abbr --add gcls 'git clone git@github.com:'
     abbr --add gclh 'git clone https://github.com/'
-    abbr --add gt "git tag$sign_lower"
+    abbr --add gt "git tag"
     abbr --add gw 'git whatchanged'
-    abbr --add gm "git merge$sign_upper"
+    abbr --add gm "git merge"
     abbr --add gpl 'git pull'
     abbr --add gplr 'git pull --rebase'
     abbr --add gco 'git checkout'
     abbr --add gb 'git branch'
     abbr --add gsw 'git switch'
     abbr --add gr 'git restore'
-    abbr --add grb "git rebase --interactive --committer-date-is-author-date$sign_upper"
+    abbr --add grb "git rebase --interactive --committer-date-is-author-date"
 
     abbr --add dce 'docker compose exec'
     abbr --add dcu 'docker compose up'
