@@ -2,14 +2,13 @@
 
 export WMRC_DEPENDENCIES='pgrep'
 
-APPS='unclutter -idle 1
+APPS='unclutter -idle 10
       redshift-qt
       flameshot
       kdeconnect-indicator
-      mail-notification
-      ayatana-webmail
       safeeyes
       nm-applet
+      whatsapp-nativefier
       libinput-gestures-setup start
       xhost +si:localuser:$USER
       '

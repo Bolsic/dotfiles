@@ -1,7 +1,7 @@
 PREFIX			?= /
-DEFAULT_USER	:= filiparag
-DEFAULT_NAME	:= Filip Parag
-DEFAULT_EMAIL	:= filip@parag.rs
+DEFAULT_USER	:= vladanbasic
+DEFAULT_NAME	:= Vladan Bašić
+DEFAULT_EMAIL	:= vladanbasic@gmail.com
 WORKDIR			:= $(shell mktemp -d -t 'dotfiles-XXXXX')
 WORKFILE		:= $(shell sudo mktemp -t 'dotfiles-XXXXX.tar')
 SRCDIR			:= $(shell realpath ./src/)
@@ -36,7 +36,7 @@ symlink: .bootstrap .configure .prepare-symlink .rename .chown .package .install
 	@echo 'export USER_EMAIL="${USER_EMAIL}"' >> ${HOMEDIR}/.config/dotfiles.ini
 
 dependencies: .bootstrap
-	@if ! grep -q 'filiparag' /etc/pacman.conf; then \
+	@if ! grep -q 'vladanbasic' /etc/pacman.conf; then \
 		dialog --title 'Package installation' --yesno 'Use build server for AUR packages' 5 40 && \
 		printf "[filiparag]\nSigLevel = Optional TrustAll\nServer = https://pkg.filiparag.com/archlinux/\n" | sudo tee -a /etc/pacman.conf || \
 		true; \

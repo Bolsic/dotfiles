@@ -4,6 +4,7 @@ export WMRC_DEPENDENCIES='setxkbmap numlockx xmodmap sudo'
 
 WMRC_TRACKPOINT_SENSITIVITY_X230="${WMRC_TRACKPOINT_SENSITIVITY_X230:-220}"
 WMRC_TRACKPOINT_SENSITIVITY_X13="${WMRC_TRACKPOINT_SENSITIVITY_X13:-30}"
+WMRC_TRACKPOINT_SENSITIVITY_L14="${WMRC_TRACKPOINT_SENSITIVITY_L14:-1}"
 
 layout() {
 
@@ -45,7 +46,6 @@ keybinds() {
       if [ -e "/proc/acpi/ibm/led" ]; then
         info "Turn of LEDs"
         sudo su -c "echo '0 off' > /proc/acpi/ibm/led"
-        sudo su -c "echo '0' > /sys/devices/platform/thinkpad_acpi/leds/tpacpi::lid_logo_dot/brightness"
       fi
     else
 
@@ -57,11 +57,11 @@ keybinds() {
 
     # Change key bindings
     info "Change key bindings"
-    xmodmap -e "keycode 112 = Home"
-    xmodmap -e "keycode 117 = End"
-    xmodmap -e "keycode 107 = Menu"
-    xmodmap -e "keycode 110 = Prior"
-    xmodmap -e "keycode 115 = Next"
+      xmodmap -e "keycode 112 = Home"
+      xmodmap -e "keycode 117 = End"
+      xmodmap -e "keycode 107 = Menu"
+      xmodmap -e "keycode 110 = Prior"
+      xmodmap -e "keycode 115 = Next"
 
   fi
 

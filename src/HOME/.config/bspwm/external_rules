@@ -50,4 +50,7 @@ case "$class" in
 	thunderbird)
 		echo "desktop=0"
 		;;
+	whatsapp*)
+		echo "desktop=9"
+		;;
 esac

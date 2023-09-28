@@ -1,8 +1,8 @@
 # Personal environment variables
-set -x NAME     'Filip Parag'
-set -x EMAIL    'filip@parag.rs'
+set -x NAME     'Vladan Bašić'
+set -x EMAIL    'vladanbasic@gmail.com'
 set -x EDITOR   'vim'
-set -x BROWSER  'firefox'
+set -x BROWSER  'google-chrome-stable'
 #set -x VISUAL	'subl -w'
-set -x VISUAL	'vim'
+set -x VISUAL	'nano'
 set -x PATH     "$PATH:$HOME/.cargo/bin"
