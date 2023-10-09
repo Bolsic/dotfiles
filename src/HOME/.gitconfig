@@ -1,6 +1,6 @@
 [user]
 	email = vladanbasic@gmail.com
-	name = Vladan Bašić
+	name = Vladan Basic
 	#signingkey = A14B0539F97EB0F32E4DB5A6491FDD271C9A4994
 [init]
 	defaultBranch = master
@@ -13,3 +13,7 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+[core]
+	eitor = code --wait
+	autocrlf = input
+	editor = code --wait
