@@ -10,6 +10,7 @@ APPS='unclutter -idle 10
       nm-applet
       whatsapp-nativefier
       libinput-gestures-setup start
+      gromit-mpx
       xhost +si:localuser:$USER
       '
 

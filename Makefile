@@ -123,16 +123,17 @@ dependencies: .bootstrap
 	}' | sudo tee /usr/share/doc/dotfiles/manual.html 1>/dev/null
 
 .post-install:
-	@sudo systemctl enable sshd
-	@sudo systemctl enable cronie
-	@sudo systemctl enable NetworkManager
-	@sudo systemctl enable avahi-daemon
-	@sudo systemctl enable "suspend@${USERNAME}"
-	@sudo systemctl enable "syncthing@${USERNAME}"
-	@sudo systemctl enable syncthing-resume
-	@sudo systemctl enable systemd-resolved
-	@sudo systemctl enable systemd-timesyncd
-	@sudo systemctl enable ufw
+	@sudo systemctl daemon-reload
+	@sudo systemctl enable "resume@${USERNAME}"
+	@sudo systemctl enable --now sshd
+	@sudo systemctl enable --now cronie
+	@sudo systemctl enable --now NetworkManager
+	@sudo systemctl enable --now avahi-daemon
+	@sudo systemctl enable --now "syncthing@${USERNAME}"
+	@sudo systemctl enable --now syncthing-resume
+	@sudo systemctl enable --now systemd-resolved
+	@sudo systemctl enable --now systemd-timesyncd
+	@sudo systemctl enable --now ufw
 	@sudo ufw default deny incoming
 	@sudo ufw default allow outgoing
 	@sudo ufw allow ssh
@@ -141,6 +142,7 @@ dependencies: .bootstrap
 	@sudo ufw allow 1714:1764/tcp
 	@sudo ufw enable
 	@sudo chsh -s /usr/bin/fish "${USERNAME}"
+	@sudo gpasswd -a "${USERNAME}" input
 	@test -e /usr/bin/vi || sudo ln -s /usr/bin/vim /usr/bin/vi
 	@test -e /usr/bin/firefox || sudo ln -s /usr/bin/firefox-developer-edition /usr/bin/firefox
 	@sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
