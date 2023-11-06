@@ -42,11 +42,11 @@ start() {
 
     if [ "$M" = "$M_PRIMARY" ]; then
       if [ "$WIDTH" -ge 3440 ]; then
-        MOD_L="bspwm window"
+        MOD_L="bspwm" #window"
         MOD_C="playerctl"
         MOD_R="battery wireless wired cpu memory fan temperature filesystem pulseaudio keyboard date"
       elif [ "$WIDTH" -ge 1920 ]; then
-        MOD_L="bspwm window"
+        MOD_L="bspwm" #window"
         MOD_C=""
         MOD_R="battery wireless wired cpu memory fan temperature filesystem pulseaudio keyboard date"
       else

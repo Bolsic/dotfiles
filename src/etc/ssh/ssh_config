@@ -5,3 +5,4 @@ ForwardX11 yes
 PasswordAuthentication yes
 HostbasedAuthentication yes
 ConnectTimeout 5
+ServerAliveInterval 20
