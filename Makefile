@@ -1,12 +1,13 @@
-PREFIX			?= /
+PREFIX		?= /
 DEFAULT_USER	:= vladanbasic
 DEFAULT_NAME	:= Vladan Bašić
 DEFAULT_EMAIL	:= vladanbasic@gmail.com
-WORKDIR			:= $(shell mktemp -d -t 'dotfiles-XXXXX')
-WORKFILE		:= $(shell sudo mktemp -t 'dotfiles-XXXXX.tar')
-SRCDIR			:= $(shell realpath ./src/)
+WORKDIR		:= $(shell mktemp -d -t 'dotfiles-XXXXX')
+WORKFILE	:= $(shell sudo mktemp -t 'dotfiles-XXXXX.tar')
+SRCDIR		:= $(shell realpath ./src/)
+MAKEFILE	:= $(shell realpath ./Makefile)
 
-.PHONY: dependencies symlink
+.PHONY: dependencies optional-dependencies symlink
 
 copy: .bootstrap .configure .prepare-copy .rename .chown .package .install .cleanup .docs .post-install
 	@echo 'export DOTFILES_TYPE=copy' >> ${HOMEDIR}/.config/dotfiles.ini
@@ -14,8 +15,14 @@ copy: .bootstrap .configure .prepare-copy .rename .chown .package .install .clea
 symlink: .bootstrap .configure .prepare-symlink .rename .chown .package .install .cleanup .docs .post-install
 	@echo 'export DOTFILES_TYPE=symlink' >> ${HOMEDIR}/.config/dotfiles.ini
 
-.reload-copy: .prepare-copy .rename .chown .package .install .cleanup .docs .post-install
+.reload-copy: .prepare-copy .rename-copy .chown .package .install .cleanup .docs .post-install
 .reload-symlink: .prepare-symlink .rename-home .chown .package .install .cleanup .docs .post-install
+
+.type-copy:
+	$(eval DOTFILES_TYPE=copy)
+
+.type-symlink:
+	$(eval DOTFILES_TYPE=symlink)
 
 .bootstrap:
 	@sudo pacman -Sy --needed git dialog coreutils findutils pciutils
@@ -28,12 +35,6 @@ symlink: .bootstrap .configure .prepare-symlink .rename .chown .package .install
 	@$(eval HOMEDIR=$(shell dialog --title 'Configuration' --inputbox "Home directory" 8 30 "$(shell echo ~${USERNAME})" --output-fd 1))
 	@$(eval USER_NAME=$(shell dialog --title 'Configuration' --inputbox "Full name" 8 30 "${DEFAULT_NAME}" --output-fd 1))
 	@$(eval USER_EMAIL=$(shell dialog --title 'Configuration' --inputbox "Email" 8 30 "${DEFAULT_EMAIL}" --output-fd 1))
-	@mkdir -p ${HOMEDIR}/.config
-	@echo 'export USERNAME="${USERNAME}"' > ${HOMEDIR}/.config/dotfiles.ini
-	@echo 'export GROUP="${GROUP}"' >> ${HOMEDIR}/.config/dotfiles.ini
-	@echo 'export HOMEDIR="${HOMEDIR}"' >> ${HOMEDIR}/.config/dotfiles.ini
-	@echo 'export USER_NAME="${USER_NAME}"' >> ${HOMEDIR}/.config/dotfiles.ini
-	@echo 'export USER_EMAIL="${USER_EMAIL}"' >> ${HOMEDIR}/.config/dotfiles.ini
 
 dependencies: .bootstrap
 	@if ! grep -q 'vladanbasic' /etc/pacman.conf; then \
@@ -41,19 +42,37 @@ dependencies: .bootstrap
 		printf "[filiparag]\nSigLevel = Optional TrustAll\nServer = https://pkg.filiparag.com/archlinux/\n" | sudo tee -a /etc/pacman.conf || \
 		true; \
 	fi
-	@paru -Sy --needed - < pkglist.txt
+	@paru -Syu
+	@paru -S --needed - < pkglist.required.txt
+	@paru -S aur/qt5-styleplugins aur/qt6gtk2
+
+optional-dependencies: .bootstrap
+	$(eval OPT_DEPS_CMD=$(shell awk -F'\t' ' \
+	BEGIN { \
+		printf("dialog --title \"Optional dependencies\" --checklist \"Selection of apps not required for basic functionality\"  0 0 0 "); \
+	} \
+	{ \
+		name = $$1; \
+		$$1 = ""; \
+		printf("%s \"%s\" on ", name, $$0); \
+	} \
+	END { \
+		printf(" --output-fd 1\n"); \
+	}' pkglist.optional.txt))
+	@$(eval OPT_DEPS=$(shell ${OPT_DEPS_CMD}))
+	@paru -S --needed ${OPT_DEPS}
+
+.prepare-copy:
+	@cp -Rpd ${SRCDIR}/* ${WORKDIR}/
 
 .prepare-symlink: .prepare-copy
 	@find ${WORKDIR} -not -type d -exec rm -f {} \;
 	@cat dirlist.txt | xargs -I{} rm -rf ${WORKDIR}/{}
 	@cat dirlist.txt | xargs -I{} ln -s ${SRCDIR}/{} ${WORKDIR}/{}
-	@awk 'BEGIN { printf("cd ${SRCDIR} && find * -type f") } { printf(" -not -path \"%s/*\" ", $$0) } END { print "-exec ln -s ${SRCDIR}/{} ${WORKDIR}/{} \\;" }' dirlist.txt > ${WORKDIR}/symlink.sh
+	@awk 'BEGIN { printf("cd ${SRCDIR} && find * \\( -type f -o -type l \\)") } { printf(" -not -path \"%s/*\" ", $$0) } END { print "-exec ln -s ${SRCDIR}/{} ${WORKDIR}/{} \\;" }' dirlist.txt > ${WORKDIR}/symlink.sh
 	@sh ${WORKDIR}/symlink.sh && rm -f ${WORKDIR}/symlink.sh
 
-.prepare-copy:
-	@cp -Rpd ${SRCDIR}/* ${WORKDIR}/
-
-.rename:
+.rename-copy:
 	@find ${WORKDIR} -type f -not -name 'pacman.conf' -exec sed -i 's|${DEFAULT_USER}|${USERNAME}|g' {} \;
 	@find ${WORKDIR} -type f -exec sed -i 's|${DEFAULT_NAME}|${USER_NAME}|g' {} \;
 	@find ${WORKDIR} -type f -exec sed -i 's|${DEFAULT_EMAIL}|${USER_EMAIL}|g' {} \;
@@ -61,9 +80,29 @@ dependencies: .bootstrap
 	@dirname ${WORKDIR}/${HOMEDIR} | xargs mkdir -p
 	@mv ${WORKDIR}/HOME ${WORKDIR}/${HOMEDIR}
 
+.rename-symlink:
+	@sed -i 's/^DEFAULT_USER.*/DEFAULT_USER	:= ${USERNAME}/' ${MAKEFILE}
+	@sed -i 's/^DEFAULT_NAME.*/DEFAULT_NAME	:= ${USER_NAME}/' ${MAKEFILE}
+	@sed -i 's/^DEFAULT_EMAIL.*/DEFAULT_EMAIL	:= ${USER_EMAIL}/' ${MAKEFILE}
+	@find ${SRCDIR} -type f -not -name 'pacman.conf' -exec sed -i 's|${DEFAULT_USER}|${USERNAME}|g' {} \;
+	@find ${SRCDIR} -type f -exec sed -i 's|${DEFAULT_NAME}|${USER_NAME}|g' {} \;
+	@find ${SRCDIR} -type f -exec sed -i 's|${DEFAULT_EMAIL}|${USER_EMAIL}|g' {} \;
+	@[ '${DEFAULT_EMAIL}' != '${USER_EMAIL}' ] && sed -i '/signingkey/d' ${SRCDIR}/HOME/.gitconfig || true
+	@dirname ${WORKDIR}/${HOMEDIR} | xargs mkdir -p
+	@mv ${WORKDIR}/HOME ${WORKDIR}/${HOMEDIR}
+
 .rename-home:
 	@dirname ${WORKDIR}/${HOMEDIR} | xargs mkdir -p
 	@mv ${WORKDIR}/HOME ${WORKDIR}/${HOMEDIR}
+
+.save-config:
+	@mkdir -p ${WORKDIR}/${HOMEDIR}/.config
+	@echo 'export DOTFILES_TYPE="${DOTFILES_TYPE}"' > ${WORKDIR}/${HOMEDIR}/.config/dotfiles.ini
+	@echo 'export USERNAME="${USERNAME}"' >> ${WORKDIR}/${HOMEDIR}/.config/dotfiles.ini
+	@echo 'export GROUP="${GROUP}"' >> ${WORKDIR}/${HOMEDIR}/.config/dotfiles.ini
+	@echo 'export HOMEDIR="${HOMEDIR}"' >> ${WORKDIR}/${HOMEDIR}/.config/dotfiles.ini
+	@echo 'export USER_NAME="${USER_NAME}"' >> ${WORKDIR}/${HOMEDIR}/.config/dotfiles.ini
+	@echo 'export USER_EMAIL="${USER_EMAIL}"' >> ${WORKDIR}/${HOMEDIR}/.config/dotfiles.ini
 
 .chown:
 	@sudo -E find ${WORKDIR} -mindepth 1 -not -path '${WORKDIR}/${HOMEDIR}*' -exec chown root:root {} \;
@@ -129,8 +168,10 @@ dependencies: .bootstrap
 	@sudo systemctl enable --now cronie
 	@sudo systemctl enable --now NetworkManager
 	@sudo systemctl enable --now avahi-daemon
-	@sudo systemctl enable --now "syncthing@${USERNAME}"
-	@sudo systemctl enable --now syncthing-resume
+	@if test -f /etc/systemd/system/syncthing@.service; then \
+		sudo systemctl enable --now "syncthing@${USERNAME}"; \
+		sudo systemctl enable --now syncthing-resume; \
+	else true; fi
 	@sudo systemctl enable --now systemd-resolved
 	@sudo systemctl enable --now systemd-timesyncd
 	@sudo systemctl enable --now ufw
@@ -142,8 +183,11 @@ dependencies: .bootstrap
 	@sudo ufw allow 1714:1764/tcp
 	@sudo ufw enable
 	@sudo chsh -s /usr/bin/fish "${USERNAME}"
-	@sudo gpasswd -a "${USERNAME}" input
+	@sudo usermod -aG input,kvm,optical,rfkill,uucp "${USERNAME}"
 	@test -e /usr/bin/vi || sudo ln -s /usr/bin/vim /usr/bin/vi
 	@test -e /usr/bin/firefox || sudo ln -s /usr/bin/firefox-developer-edition /usr/bin/firefox
-	@sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+	@if command -v flatpak &>/dev/null; then \
+		sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo; \
+		sudo flatpak override --env GTK_THEME=Adwaita:dark; \
+	else true; fi
 	@gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
