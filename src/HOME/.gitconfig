@@ -17,3 +17,9 @@
 	eitor = code --wait
 	autocrlf = input
 	editor = code --wait
+[rerere]
+	enabled = true
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate

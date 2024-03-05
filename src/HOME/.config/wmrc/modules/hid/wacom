@@ -87,7 +87,7 @@ bind_buttons() {
     detect_pad
     detect_stylus
     if [ -z "$WACOM_PAD" ] && [ -z "$WACOM_STYLUS" ]; then
-        error 'No Wacom input device detected'
+        warn 'No Wacom input device detected'
         return 0
     fi
     profile="$1"
@@ -105,8 +105,8 @@ bind_buttons() {
             # xsetwacom set "$WACOM_STYLUS" Button 3 'button 3';
             xsetwacom set "$WACOM_PAD" Button 1 'key +ctrl z';
             xsetwacom set "$WACOM_PAD" Button 2 'key +ctrl +shift z';
-            xsetwacom set "$WACOM_PAD" Button 3 'key +ctrl l';
-            xsetwacom set "$WACOM_PAD" Button 8 'button 1';;
+            xsetwacom set "$WACOM_PAD" Button 3 'key +ctrl +minus';
+            xsetwacom set "$WACOM_PAD" Button 8 'key +ctrl +shift +plus';;
         *)
             profile='Gromit-MPX (default)'
             set_pressure
@@ -129,7 +129,7 @@ start() {
     detect_pad
     detect_stylus
     if [ -z "$WACOM_PAD" ] && [ -z "$WACOM_STYLUS" ]; then
-        error 'No Wacom input device detected'
+        warn 'No Wacom input device detected'
         return 0
     fi
     set_pressure ''
