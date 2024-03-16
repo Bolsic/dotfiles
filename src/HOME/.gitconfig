@@ -1,7 +1,6 @@
 [user]
-	email = filip@parag.rs
-	name = Filip Parag
-	signingkey = A14B0539F97EB0F32E4DB5A6491FDD271C9A4994
+	email = vladanbasic@gmail.com
+	name = Vladan Basic
 [init]
 	defaultBranch = master
 [pull]

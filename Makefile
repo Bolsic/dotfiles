@@ -1,8 +1,8 @@
 MAKEFLAGS 	+= --silent
 PREFIX		?= /
-DEFAULT_USER	:= filiparag
-DEFAULT_NAME	:= Filip Parag
-DEFAULT_EMAIL	:= filip@parag.rs
+DEFAULT_USER	:= basic
+DEFAULT_NAME	:= Vladan Basic
+DEFAULT_EMAIL	:= vladanbasic@gmail.com
 WORKDIR		:= $(shell mktemp -d -t 'dotfiles-XXXXX')
 WORKFILE	:= $(shell sudo mktemp -t 'dotfiles-XXXXX.tar')
 SRCDIR		:= $(shell realpath ./src/)
