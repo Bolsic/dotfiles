@@ -47,8 +47,15 @@ case "$class" in
 	freezer|audiotube|Supersonic)
 		echo "desktop=5"
 		;;
-	thunderbird)
+	whatsapp*)
 		echo "desktop=0"
+		;;
+	google-chrome*)
+		echo "desktop=1"
+		;;
+	obsidian*)
+		echo "desktop=2"
+		echo "state=floating"
 		;;
 	Windscribe2)
 		echo "state=floating"
