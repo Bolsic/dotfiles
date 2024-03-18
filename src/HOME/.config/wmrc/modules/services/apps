@@ -9,6 +9,9 @@ APPS='unclutter -idle 1
       kdeconnect-indicator
       flameshot
       blueman-applet
+      whatsapp-nativefier
+      google-chrome-stable
+      obsidian
       '
 
 app_list() {
@@ -54,9 +57,11 @@ start() {
         info "Starting application" "$EXE"
         $CMD >/dev/null 2>&1 &
       fi
+
     else
       warn "Application not installed" "$EXE"
     fi
+
 
   done
 
