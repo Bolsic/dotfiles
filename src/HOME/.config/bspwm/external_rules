@@ -48,7 +48,7 @@ case "$class" in
 		echo "desktop=5"
 		;;
 	whatsapp*)
-		echo "desktop=0"
+		echo "desktop=9"
 		;;
 	obsidian*)
 		echo "desktop=2"

@@ -10,7 +10,6 @@ APPS='unclutter -idle 1
       flameshot
       blueman-applet
       whatsapp-nativefier
-      google-chrome-stable
       obsidian
       '
 
