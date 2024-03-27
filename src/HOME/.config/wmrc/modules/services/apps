@@ -19,6 +19,7 @@ APPS='unclutter -idle 10
       nm-applet
       whatsapp-nativefier
       gromit-mpx
+      blueman-applet
       '
 
 app_list() {
