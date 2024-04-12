@@ -32,5 +32,11 @@
   "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   "terminal.integrated.inheritEnv": false,
-  "window.zoomLevel": 2
+  "window.zoomLevel": 2,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }

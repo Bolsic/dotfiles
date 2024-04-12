@@ -379,3 +379,8 @@ super + bracketright
 super + bracketleft
 	bspc config -d focused window_gap 0; \
 	bspc config -d focused border_width 1
+
+# Invert screen orientation
+super + i
+	wmrc call screen/layout invert
+	

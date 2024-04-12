@@ -2,7 +2,7 @@
 
 export WMRC_DEPENDENCIES='pgrep'
 
-APPS='unclutter -idle 1
+APPS="unclutter -idle 1
       redshift-qt
       libinput-gestures-setup start
       xhost +si:localuser:$USER
@@ -11,8 +11,9 @@ APPS='unclutter -idle 1
       blueman-applet
       whatsapp-nativefier
       obsidian
-      '
+      "
 
+      xhost +si:localuser:$USER
 app_list() {
 
   APPLIST=""

@@ -99,6 +99,32 @@ reload_ui() {
 
 }
 
+
+# Vladan's function for inverting the oriantation of the display
+invert() {
+  local MOUSE_ID=$(xinput list | grep 'Mouse' | cut -d '=' -f 2 | awk '{print $1}')
+  local PAD_ID=$(xinput list | grep 'TouchPad' | cut -d '=' -f 2 | awk '{print $1}')
+
+    if xrandr --query --verbose | grep "eDP" | cut -d ' ' -f 6 | grep -q "normal"; then
+        xrandr -o inverted
+        if [ -n "$MOUSE_ID" ]; then
+          xinput set-prop "$MOUSE_ID" "Coordinate Transformation Matrix" -1 0 0 0 -1 0 0 0 1
+        fi
+        if [ -n "$PAD_ID" ]; then
+          xinput set-prop "$PAD_ID" "Coordinate Transformation Matrix" -1 0 0 0 -1 0 0 0 1
+        fi
+    else
+        xrandr -o normal
+        if [ -n "$MOUSE_ID" ]; then
+          xinput set-prop "$MOUSE_ID" "Coordinate Transformation Matrix" 1 0 0 0 1 0 0 0 1
+        fi
+        if [ -n "$PAD_ID" ]; then
+          xinput set-prop "$PAD_ID" "Coordinate Transformation Matrix" 1 0 0 0 1 0 0 0 1
+        fi
+    fi
+}
+
+
 start() {
 
   DEFINED="$(find "$SCREENLAYOUT" -type f \
