@@ -321,6 +321,10 @@ super + Insert
 XF86AudioMute
 	wmrc call hardware/audio speakers_toggle_mute
 
+# Open bluetooth manager GUI
+super + alt + b
+	blueman-manager
+
 # Change internal monitor brightness using media keys
 super + {XF86AudioLowerVolume,XF86AudioRaiseVolume}
 	wmrc call screen/backlight {decrease,increase} internal
