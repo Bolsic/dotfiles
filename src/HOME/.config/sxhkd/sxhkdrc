@@ -43,7 +43,7 @@ ctrl + q
 
 # Launch Firefox in private mode
 super + shift + b
-	firefox -private-window
+	google-chrome-stable --incognito
 
 # Launch file manager
 super + n
