@@ -326,6 +326,15 @@ XF86AudioMute
 super + alt + b
 	blueman-manager
 
+super + XF86MonBrightnessDown
+	redshift -O 5500K
+
+super + XF86MonBrightnessUp
+	redshift -O 7500K
+
+super + XF86AudioMicMute
+	redshift -x
+
 # Change internal monitor brightness using media keys
 super + {XF86AudioLowerVolume,XF86AudioRaiseVolume}
 	wmrc call screen/backlight {decrease,increase} internal
@@ -343,7 +352,7 @@ ctrl + {XF86AudioLowerVolume,XF86AudioRaiseVolume}
 	wmrc call screen/backlight set_to {0,100}
 
 # Select monitor layout
-super + {o, XF86AudioMicMute}
+super + o
 	wmrc call screen/layout start
 
 # Select monitor layout using media key
