@@ -29,7 +29,7 @@ function __abbr_os_arch -d 'Package manager abbrevations for Arch Linux'
     abbr --add yi "$pkgmgr -Si" # Package info
     abbr --add y "$pkgmgr -Syu" # Update and upgrade
     abbr --add ya "$pkgmgr -Sua" # Upgrade AUR packages
-    abbr --add yr "$pkgmgr -Rcsn" # Remove package
+    abbr --add yr "$pkgmgr -Rcn" # Remove package
     abbr --add yc "$pkgmgr -Sc" # Clean cache
 
 end

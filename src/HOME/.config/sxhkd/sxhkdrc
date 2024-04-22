@@ -1,4 +1,5 @@
 #! /usr/bin/dash
+# shellcheck disable=SC1054,SC1083,SC1073,SC1056,SC1072
 
 ## Launchers
 
@@ -32,7 +33,7 @@ super + shift + Return
 super + BackSpace
 	$WMRC_TERMINAL -e tmux new-session -A -s scratchpad
 
-# Launch Firefox
+# Launch default browset
 super + b
 	$WMRC_BROWSER
 
@@ -41,7 +42,7 @@ ctrl + q
 	xprop -id "$(bspc query -N -n)" | grep -q 'WM_CLASS.*firefox' || \
 	xdotool keydown ctrl key q keyup ctrl
 
-# Launch Firefox in private mode
+# Launch Chrome in incognito mode
 super + shift + b
 	google-chrome-stable --incognito
 
@@ -106,7 +107,7 @@ super + shift + @space
 	elif [ "$(bspc query -N -n focused.tiled)" ]; then \
 		bspc node focused -t floating; \
 	else \
-		bspc node focused -t tiled; \
+		bspc node focused -t tiled;  
 	fi
 
 # Select window if tiled
@@ -387,4 +388,3 @@ super + bracketleft
 # Invert screen orientation
 super + i
 	wmrc call screen/layout invert
-	
