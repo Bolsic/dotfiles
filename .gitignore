@@ -15,6 +15,9 @@
 .config/zoom/
 .config/vlc/
 
+# Ignore alacrity themes
+.config/alacritty/themes/
+
 # Ignore dconf databases
 .config/dconf/
 # Ignore glib schemas
