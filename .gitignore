@@ -1,39 +1,39 @@
 # Ignore browser profiles and cache
-.config/google-chrome/
+HOME/.config/google-chrome/
 .cache/
 # Ignore session and runtime files
-.config/session/
+HOME/.config/session/
 # Ignore runtime directories in apps
-.config/whatsapp-desktop-client/
-.config/audacity/
-.config/spotify/
-.config/pulse/
-.config/libreoffice/
-.config/pavucontrol.ini
-.config/obsidian/
-.config/qBittorrent/
-.config/zoom/
-.config/vlc/
+HOME/.config/whatsapp-desktop-client/
+HOME/.config/audacity/
+HOME/.config/spotify/
+HOME/.config/pulse/
+HOME/.config/libreoffice/
+HOME/.config/pavucontrol.ini
+HOME/.config/obsidian/
+HOME/.config/qBittorrent/
+HOME/.config/zoom/
+HOME/.config/vlc/
 
 # Ignore alacrity themes
-.config/alacritty/themes/
+HOME/.config/alacritty/themes/
 
 # Ignore dconf databases
-.config/dconf/
+HOME/.config/dconf/
 # Ignore glib schemas
-.config/glib-2.0/
+HOME/.config/glib-2.0/
 # Ignore ibus configuration
-.config/ibus/
+HOME/.config/ibus/
 # Ignore kde.org configuration
-.config/kde.org/
+HOME/.config/kde.org/
 # Ignore kiorc configuration
-.config/kiorc/
+HOME/.config/kiorc/
 # Ignore menus configuration
-.config/menus/
+HOME/.config/menus/
 # Ignore Qt Project configuration
-.config/QtProject.conf
+HOME/.config/QtProject.conf
 
 # Ignore temporary files
 .tmp/
 .temp/
-.config/trashrc
+HOME/.config/trashrc
