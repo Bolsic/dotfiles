@@ -1,0 +1,71 @@
+2025-03-06 01:24:58.892 [info] Marked extension as removed vadimcn.vscode-lldb-1.11.3
+2025-03-06 01:25:08.533 [info] Getting Manifest... github.copilot
+2025-03-06 01:25:08.534 [info] Getting Manifest... ms-python.debugpy
+2025-03-06 01:25:08.535 [info] Getting Manifest... ms-python.python
+2025-03-06 01:25:08.537 [info] Getting Manifest... ms-vscode.cmake-tools
+2025-03-06 01:25:08.538 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+2025-03-06 01:25:08.538 [info] Getting Manifest... ms-vscode.makefile-tools
+2025-03-06 01:25:08.539 [info] Getting Manifest... redhat.vscode-yaml
+2025-03-06 01:25:08.975 [info] Installing extension: ms-vscode.cpptools-extension-pack {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/basic/.vscode/extensions/extensions.json","path":"/home/basic/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-06 01:25:08.977 [info] Installing extension: ms-vscode.makefile-tools {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/basic/.vscode/extensions/extensions.json","path":"/home/basic/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-06 01:25:08.979 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/basic/.vscode/extensions/extensions.json","path":"/home/basic/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-06 01:25:08.982 [info] Installing extension: ms-python.debugpy {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/basic/.vscode/extensions/extensions.json","path":"/home/basic/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-06 01:25:08.985 [info] Installing extension: ms-vscode.cmake-tools {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/basic/.vscode/extensions/extensions.json","path":"/home/basic/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-06 01:25:08.986 [info] Installing extension: redhat.vscode-yaml {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/basic/.vscode/extensions/extensions.json","path":"/home/basic/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-06 01:25:08.996 [info] Installing extension: github.copilot {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/basic/.vscode/extensions/extensions.json","path":"/home/basic/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-06 01:25:09.346 [info] Getting Manifest... ms-python.python
+2025-03-06 01:25:09.659 [info] Extension signature verification result for ms-vscode.cpptools-extension-pack: UnknownError. Executed: true. Duration: 34ms.
+2025-03-06 01:25:09.683 [info] Extracted extension to file:///home/basic/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.1: ms-vscode.cpptools-extension-pack
+2025-03-06 01:25:09.687 [info] Renamed to /home/basic/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.1
+2025-03-06 01:25:09.702 [info] Marked extension as removed ms-vscode.cpptools-extension-pack-1.3.0
+2025-03-06 01:25:09.725 [info] Extension installed successfully: ms-vscode.cpptools-extension-pack vscode-userdata:/home/basic/.vscode/extensions/extensions.json
+2025-03-06 01:25:09.997 [info] Extension signature verification result for ms-vscode.makefile-tools: UnknownError. Executed: true. Duration: 16ms.
+2025-03-06 01:25:10.077 [info] Extracted extension to file:///home/basic/.vscode/extensions/ms-vscode.makefile-tools-0.12.17: ms-vscode.makefile-tools
+2025-03-06 01:25:10.082 [info] Renamed to /home/basic/.vscode/extensions/ms-vscode.makefile-tools-0.12.17
+2025-03-06 01:25:10.097 [info] Marked extension as removed ms-vscode.makefile-tools-0.11.13
+2025-03-06 01:25:10.116 [info] Extension installed successfully: ms-vscode.makefile-tools vscode-userdata:/home/basic/.vscode/extensions/extensions.json
+2025-03-06 01:25:11.986 [info] Extension signature verification result for redhat.vscode-yaml: UnknownError. Executed: true. Duration: 17ms.
+2025-03-06 01:25:12.080 [info] Extracted extension to file:///home/basic/.vscode/extensions/redhat.vscode-yaml-1.17.0: redhat.vscode-yaml
+2025-03-06 01:25:12.084 [info] Renamed to /home/basic/.vscode/extensions/redhat.vscode-yaml-1.17.0
+2025-03-06 01:25:12.096 [info] Marked extension as removed redhat.vscode-yaml-1.16.0
+2025-03-06 01:25:12.110 [info] Extension installed successfully: redhat.vscode-yaml vscode-userdata:/home/basic/.vscode/extensions/extensions.json
+2025-03-06 01:25:14.010 [info] Extension signature verification result for ms-vscode.cmake-tools: UnknownError. Executed: true. Duration: 16ms.
+2025-03-06 01:25:14.354 [info] Extracted extension to file:///home/basic/.vscode/extensions/ms-vscode.cmake-tools-1.20.53: ms-vscode.cmake-tools
+2025-03-06 01:25:14.371 [info] Renamed to /home/basic/.vscode/extensions/ms-vscode.cmake-tools-1.20.53
+2025-03-06 01:25:14.386 [info] Marked extension as removed ms-vscode.cmake-tools-1.19.52
+2025-03-06 01:25:14.408 [info] Extension installed successfully: ms-vscode.cmake-tools vscode-userdata:/home/basic/.vscode/extensions/extensions.json
+2025-03-06 01:25:16.555 [info] Extension signature verification result for ms-python.debugpy: UnknownError. Executed: true. Duration: 14ms.
+2025-03-06 01:25:17.076 [info] Extracted extension to file:///home/basic/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64: ms-python.debugpy
+2025-03-06 01:25:17.097 [info] Renamed to /home/basic/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64
+2025-03-06 01:25:17.110 [info] Marked extension as removed ms-python.debugpy-2025.0.1-linux-x64
+2025-03-06 01:25:17.125 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/basic/.vscode/extensions/extensions.json
+2025-03-06 01:25:17.930 [info] Extension signature verification result for ms-python.python: UnknownError. Executed: true. Duration: 9ms.
+2025-03-06 01:25:18.422 [info] Extension signature verification result for github.copilot: UnknownError. Executed: true. Duration: 13ms.
+2025-03-06 01:25:19.095 [info] Extracted extension to file:///home/basic/.vscode/extensions/github.copilot-1.277.0: github.copilot
+2025-03-06 01:25:19.105 [info] Renamed to /home/basic/.vscode/extensions/github.copilot-1.277.0
+2025-03-06 01:25:19.118 [info] Marked extension as removed github.copilot-1.272.0
+2025-03-06 01:25:19.146 [info] Extension installed successfully: github.copilot vscode-userdata:/home/basic/.vscode/extensions/extensions.json
+2025-03-06 01:25:19.724 [info] Extracted extension to file:///home/basic/.vscode/extensions/ms-python.python-2025.2.0-linux-x64: ms-python.python
+2025-03-06 01:25:19.785 [info] Renamed to /home/basic/.vscode/extensions/ms-python.python-2025.2.0-linux-x64
+2025-03-06 01:25:19.810 [info] Marked extension as removed ms-python.python-2025.0.0-linux-x64
+2025-03-06 01:25:19.826 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/basic/.vscode/extensions/extensions.json
+2025-03-06 01:25:30.146 [info] Getting Manifest... ms-toolsai.jupyter
+2025-03-06 01:25:30.510 [info] Installing extension: ms-toolsai.jupyter {"productVersion":{"version":"1.98.0","date":"2025-03-04T21:08:22.954Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/basic/.vscode/extensions/extensions.json","path":"/home/basic/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-06 01:25:32.353 [info] Extension signature verification result for ms-toolsai.jupyter: UnknownError. Executed: true. Duration: 20ms.
+2025-03-06 01:25:32.698 [info] Extracted extension to file:///home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64: ms-toolsai.jupyter
+2025-03-06 01:25:32.712 [info] Renamed to /home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64
+2025-03-06 01:25:32.717 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 01:25:32.762 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 01:25:32.767 [error] Error while installing the extension ms-toolsai.jupyter Cannot read the extension from /home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64 vscode-userdata:/home/basic/.vscode/extensions/extensions.json
+2025-03-06 01:30:01.258 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 01:35:01.503 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 01:40:01.905 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 01:45:02.205 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 01:50:02.510 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 01:55:04.436 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 02:00:09.064 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 02:05:09.356 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 02:10:09.703 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 02:15:10.043 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 02:20:10.260 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-06 11:42:37.718 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.

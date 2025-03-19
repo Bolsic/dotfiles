@@ -1,0 +1,33 @@
+2025-02-19 10:45:38.746 [info] [Info  - 10:45:38 AM] (29552) Server root directory: file:///home/basic/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-19 10:45:39.332 [info] [Info  - 10:45:39 AM] (29552) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-19 10:45:39.464 [info] [Info  - 10:45:39 AM] (29552) Starting service instance "Vavilon"
+2025-02-19 10:45:39.474 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-19 10:45:41.702 [info] [Info  - 10:45:41 AM] (29552) Setting environmentName for service "Vavilon": "3.10.16 (venv310 venv)"
+2025-02-19 10:45:41.735 [info] [Info  - 10:45:41 AM] (29552) Setting pythonPath for service "Vavilon": "/home/basic/Projects/Vavilon/venv310/bin/python"
+2025-02-19 10:45:41.755 [info] [Info  - 10:45:41 AM] (29552) No include entries specified; assuming /home/basic/Projects/Vavilon
+2025-02-19 10:45:41.784 [info] [Info  - 10:45:41 AM] (29552) Auto-excluding **/node_modules
+2025-02-19 10:45:41.814 [info] [Info  - 10:45:41 AM] (29552) Auto-excluding **/__pycache__
+2025-02-19 10:45:41.883 [info] [Info  - 10:45:41 AM] (29552) Auto-excluding **/.*
+2025-02-19 10:45:41.938 [info] [Info  - 10:45:41 AM] (29552) Assuming Python version 3.10.16.final.0
+2025-02-19 10:45:41.974 [info] [Info  - 10:45:41 AM] (29552) Auto-excluding /home/basic/Projects/Vavilon/venv310
+2025-02-19 10:45:42.002 [info] [Info  - 10:45:42 AM] (29552) Auto-excluding /home/basic/Projects/Vavilon/venv313
+2025-02-19 10:45:42.003 [info] [Info  - 10:45:42 AM] (29552) Found 6 source files
+2025-02-19 10:45:42.281 [info] [Info  - 10:45:42 AM] (29552) Background analysis(1) root directory: file:///home/basic/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-19 10:45:42.284 [info] [Info  - 10:45:42 AM] (29552) Background analysis(1) started
+2025-02-19 10:45:42.372 [info] [Info  - 10:45:42 AM] (29552) Indexer background runner(2) root directory: file:///home/basic/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-19 10:45:42.373 [info] [Info  - 10:45:42 AM] (29552) Indexing(2) started
+2025-02-19 10:45:42.816 [info] [Info  - 10:45:42 AM] (29552) scanned(2) 20 files over 1 exec env
+2025-02-19 10:45:43.052 [info] [Info  - 10:45:43 AM] (29552) indexed(2) 20 files over 1 exec env
+2025-02-19 10:45:43.068 [info] [Info  - 10:45:43 AM] (29552) Indexing finished(2).
+2025-02-19 11:48:36.546 [info] [Info  - 11:48:36 AM] (29552) Starting service instance "<default>"
+2025-02-19 11:48:36.599 [info] [Info  - 11:48:36 AM] (29552) Setting environmentName for service "<default>": "3.10.16 (venv310 venv)"
+2025-02-19 11:48:36.599 [info] [Info  - 11:48:36 AM] (29552) Setting pythonPath for service "<default>": "/home/basic/Projects/Vavilon/venv310/bin/python"
+2025-02-19 11:48:36.599 [info] [Info  - 11:48:36 AM] (29552) No include entries specified; assuming /<default workspace root>
+2025-02-19 11:48:36.600 [info] [Info  - 11:48:36 AM] (29552) Auto-excluding **/node_modules
+2025-02-19 11:48:36.600 [info] [Info  - 11:48:36 AM] (29552) Auto-excluding **/__pycache__
+2025-02-19 11:48:36.600 [info] [Info  - 11:48:36 AM] (29552) Auto-excluding **/.*
+2025-02-19 11:48:36.644 [info] [Info  - 11:48:36 AM] (29552) Assuming Python version 3.10.16.final.0
+2025-02-19 11:48:36.734 [info] [Error - 11:48:36 AM] (29552) File or directory "/<default workspace root>" does not exist.
+2025-02-19 11:48:36.735 [info] [Info  - 11:48:36 AM] (29552) No source files found.
+2025-02-19 11:48:37.656 [info] [Info  - 11:48:37 AM] (29552) Background analysis(3) root directory: file:///home/basic/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-19 11:48:37.660 [info] [Info  - 11:48:37 AM] (29552) Background analysis(3) started

@@ -1,0 +1,17 @@
+2025-02-17 17:39:04.379 [info] Added views:workbench.panel.chat.view.copilot in workbench.panel.chat
+2025-02-17 17:39:04.379 [info] Added views:workbench.panel.chat.view.edits in workbench.panel.chatEditing
+2025-02-17 17:39:04.379 [info] Added views:outline in workbench.view.explorer
+2025-02-17 17:39:04.379 [info] Added views:workbench.view.search in workbench.view.search
+2025-02-17 17:39:04.379 [info] Added views:workbench.scm in workbench.view.scm
+2025-02-17 17:39:04.379 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2025-02-17 17:39:04.379 [info] Added views:workbench.panel.output in workbench.panel.output
+2025-02-17 17:39:04.379 [info] Added views:terminal in terminal
+2025-02-17 17:39:04.379 [info] Added views:timeline in workbench.view.explorer
+2025-02-17 17:39:04.379 [info] Added views:workbench.explorer.emptyView in workbench.view.explorer
+2025-02-17 17:39:04.551 [info] Added views:workbench.debug.variablesView,workbench.debug.watchExpressionsView,workbench.debug.callStackView,workbench.debug.breakPointsView in workbench.view.debug
+2025-02-17 17:39:04.936 [info] Added views:vscode-serial-monitor.monitor0 in workbench.view.extension.vscode-serial-monitor-tools
+2025-02-17 17:39:05.130 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2025-02-17 17:39:05.131 [info] Removed views:workbench.debug.breakPointsView,workbench.debug.callStackView,workbench.debug.watchExpressionsView,workbench.debug.variablesView from workbench.view.debug
+2025-02-17 17:39:05.132 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2025-02-17 17:39:05.277 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2025-02-17 17:39:05.393 [info] Added views:makefile.outline in workbench.view.extension.makefile__viewContainer

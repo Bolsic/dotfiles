@@ -1,0 +1,5 @@
+2025-02-17 17:39:06.692 [info] Using the Electron fetcher.
+2025-02-17 17:39:06.692 [info] Initializing Git extension service.
+2025-02-17 17:39:06.692 [info] Successfully activated the vscode.git extension.
+2025-02-17 17:39:06.692 [info] Enablement state of the vscode.git extension: true.
+2025-02-17 17:39:06.692 [info] Successfully registered Git commit message provider.

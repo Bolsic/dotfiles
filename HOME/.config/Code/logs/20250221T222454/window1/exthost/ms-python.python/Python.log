@@ -1,0 +1,6 @@
+2025-02-21 22:24:57.381 [info] Telemetry level is off
+2025-02-21 22:24:57.381 [info] Experiments are disabled, only manually opted experiments are active.
+2025-02-21 22:24:57.381 [warning] Dir "/home/basic/Projects/Vavilon/.pixi/envs" is not watchable (directory does not exist)
+2025-02-21 22:24:57.381 [info] Python interpreter path: ./venv310/bin/python
+2025-02-21 22:24:57.412 [info] > pyenv which python
+2025-02-21 22:24:57.412 [info] cwd: .

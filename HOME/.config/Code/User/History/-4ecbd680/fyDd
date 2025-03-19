@@ -1,0 +1,39 @@
+# Ignore browser profiles and cache
+HOME/.config/google-chrome/
+.cache/
+# Ignore session and runtime files
+HOME/.config/session/
+# Ignore runtime directories in apps
+HOME/.config/whatsapp-desktop-client/
+HOME/.config/audacity/
+HOME/.config/spotify/
+HOME/.config/pulse/
+HOME/.config/libreoffice/
+HOME/.config/pavucontrol.ini
+HOME/.config/obsidian/
+HOME/.config/qBittorrent/
+HOME/.config/zoom/
+HOME/.config/vlc/
+
+# Ignore alacrity themes
+HOME/.config/alacritty/themes/
+
+# Ignore dconf databases
+HOME/.config/dconf/
+# Ignore glib schemas
+HOME/.config/glib-2.0/
+# Ignore ibus configuration
+HOME/.config/ibus/
+# Ignore kde.org configuration
+HOME/.config/kde.org/
+# Ignore kiorc configuration
+HOME/.config/kiorc/
+# Ignore menus configuration
+HOME/.config/menus/
+# Ignore Qt Project configuration
+HOME/.config/QtProject.conf
+
+# Ignore temporary files
+.tmp/
+.temp/
+HOME/.config/trashrc

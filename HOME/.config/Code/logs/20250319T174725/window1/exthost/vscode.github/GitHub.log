@@ -1,0 +1,2 @@
+2025-03-19 17:47:27.788 [info] Log level: Info
+2025-03-19 17:47:40.002 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for Bolsic/dotfiles/c526c2370dc2c265dad4634e76f804ab7e042430: TypeError: Cannot read properties of null (reading 'author')

@@ -1,0 +1,78 @@
+2025-02-17 12:46:17.290 [info] Using the Electron fetcher.
+2025-02-17 12:46:17.290 [info] Initializing Git extension service.
+2025-02-17 12:46:17.290 [info] Successfully activated the vscode.git extension.
+2025-02-17 12:46:17.290 [info] Enablement state of the vscode.git extension: true.
+2025-02-17 12:46:17.290 [info] Successfully registered Git commit message provider.
+2025-02-17 12:46:18.874 [info] Logged in as Bolsic
+2025-02-17 12:46:19.587 [info] Got Copilot token for Bolsic
+2025-02-17 12:46:19.673 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 12:46:19.673 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-17 12:46:19.687 [info] Registering default platform agent...
+2025-02-17 12:46:20.148 [info] Fetched model metadata in 538ms 9fc8bcea-0774-4edd-91c7-8f77701f9015
+2025-02-17 12:46:20.290 [info] activationBlocker from 'languageModelAccess' took for 3178ms
+2025-02-17 13:11:15.130 [info] Fetched model metadata in 705ms aacc2c22-51ae-4a24-8093-e766094862eb
+2025-02-17 13:11:15.503 [info] message 0 returned. finish reason: [stop]
+2025-02-17 13:11:15.504 [info] request done: requestId: [d49299c8-9cd5-48b6-91c0-027320f7ad99] model deployment ID: []
+2025-02-17 13:11:19.602 [info] Logged in as Bolsic
+2025-02-17 13:11:20.283 [info] Got Copilot token for Bolsic
+2025-02-17 13:11:20.297 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 13:11:50.338 [info] Logged in as Bolsic
+2025-02-17 13:11:50.992 [info] Got Copilot token for Bolsic
+2025-02-17 13:11:51.013 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 13:26:51.845 [info] Fetched model metadata in 820ms f716eeaf-263a-4418-b3f5-46419f743d31
+2025-02-17 13:36:51.003 [info] Logged in as Bolsic
+2025-02-17 13:36:51.686 [info] Got Copilot token for Bolsic
+2025-02-17 13:36:51.705 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 13:44:32.714 [info] Fetched model metadata in 989ms 0f860135-6322-4a83-a231-f1b7760a6a90
+2025-02-17 13:44:33.768 [info] message 0 returned. finish reason: [stop]
+2025-02-17 13:44:33.769 [info] request done: requestId: [ef8c634a-55bd-45b6-a8d2-d1fb3dea286e] model deployment ID: []
+2025-02-17 14:01:51.699 [info] Logged in as Bolsic
+2025-02-17 14:01:52.383 [info] Got Copilot token for Bolsic
+2025-02-17 14:01:52.403 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 14:26:52.393 [info] Logged in as Bolsic
+2025-02-17 14:26:52.983 [info] Got Copilot token for Bolsic
+2025-02-17 14:26:53.001 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 14:51:52.994 [info] Logged in as Bolsic
+2025-02-17 14:51:53.778 [info] Got Copilot token for Bolsic
+2025-02-17 14:51:53.799 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 15:16:53.788 [info] Logged in as Bolsic
+2025-02-17 15:16:54.474 [info] Got Copilot token for Bolsic
+2025-02-17 15:16:54.492 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 15:22:31.839 [info] Fetched model metadata in 828ms c5ddc452-7a67-4f13-9a0d-755ae1895838
+2025-02-17 15:22:40.408 [info] message 0 returned. finish reason: [stop]
+2025-02-17 15:22:40.408 [info] request done: requestId: [77cc0173-5b56-4363-bcee-0340c929da9c] model deployment ID: []
+2025-02-17 15:41:54.483 [info] Logged in as Bolsic
+2025-02-17 15:41:55.171 [info] Got Copilot token for Bolsic
+2025-02-17 15:41:55.188 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 15:41:55.815 [info] Fetched model metadata in 620ms 339c0449-9ec1-4af6-8939-7bd78645584e
+2025-02-17 16:06:55.179 [info] Logged in as Bolsic
+2025-02-17 16:06:55.863 [info] Got Copilot token for Bolsic
+2025-02-17 16:06:55.883 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 16:06:56.606 [info] Fetched model metadata in 713ms 024c6110-232e-4d7a-afff-392dc739e4f9
+2025-02-17 16:31:55.871 [info] Logged in as Bolsic
+2025-02-17 16:31:56.558 [info] Got Copilot token for Bolsic
+2025-02-17 16:31:56.574 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 16:31:57.297 [info] Fetched model metadata in 717ms 044a31ab-bd44-4aeb-bf52-a48d42dd3080
+2025-02-17 16:56:56.567 [info] Logged in as Bolsic
+2025-02-17 16:56:57.088 [info] Got Copilot token for Bolsic
+2025-02-17 16:56:57.107 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 17:21:57.095 [info] Logged in as Bolsic
+2025-02-17 17:21:57.862 [info] Got Copilot token for Bolsic
+2025-02-17 17:21:57.877 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 17:46:57.870 [info] Logged in as Bolsic
+2025-02-17 17:46:58.547 [info] Got Copilot token for Bolsic
+2025-02-17 17:46:58.557 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 17:46:59.284 [info] Fetched model metadata in 720ms 73427073-ec01-4d00-acaf-6fca166ecc39
+2025-02-17 18:11:58.555 [info] Logged in as Bolsic
+2025-02-17 18:11:59.244 [info] Got Copilot token for Bolsic
+2025-02-17 18:11:59.259 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 18:11:59.876 [info] Fetched model metadata in 609ms 7d17a464-0d7f-4529-b184-fb41b165df50
+2025-02-17 18:36:59.250 [info] Logged in as Bolsic
+2025-02-17 18:36:59.834 [info] Got Copilot token for Bolsic
+2025-02-17 18:36:59.847 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 19:01:59.841 [info] Logged in as Bolsic
+2025-02-17 19:02:00.531 [info] Got Copilot token for Bolsic
+2025-02-17 19:02:00.546 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-17 19:27:00.539 [info] Logged in as Bolsic
+2025-02-17 19:27:01.225 [info] Got Copilot token for Bolsic
+2025-02-17 19:27:01.242 [info] copilot token chat_enabled: true, sku: free_educational

@@ -1,0 +1,70 @@
+2025-03-19 17:47:26.911 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:26.912 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:26.913 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:26.913 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:26.932 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:26.957 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:26.998 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:26.999 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.024 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.058 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.059 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.063 [info] Marked extension as removed ms-python.debugpy-2025.4.0
+2025-03-19 17:47:27.064 [info] Marked extension as removed ms-python.vscode-pylance-2025.2.1
+2025-03-19 17:47:27.064 [info] Marked extension as removed teros-technology.teroshdl-6.0.14
+2025-03-19 17:47:27.064 [info] Marked extension as removed vadimcn.vscode-lldb-1.11.3
+2025-03-19 17:47:27.075 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.463 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.464 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.473 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.474 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.480 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.497 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.589 [info] Deleted marked for removal extension from disk ms-python.debugpy /home/basic/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64
+2025-03-19 17:47:27.590 [info] Deleted marked for removal extension from disk ms-python.vscode-pylance /home/basic/.vscode/extensions/ms-python.vscode-pylance-2025.2.1
+2025-03-19 17:47:27.590 [info] Deleted marked for removal extension from disk teros-technology.teroshdl /home/basic/.vscode/extensions/teros-technology.teroshdl-6.0.14
+2025-03-19 17:47:27.622 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.622 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.637 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.688 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.688 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.692 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.756 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.756 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.759 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.844 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.845 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.849 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.951 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.951 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:27.956 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:28.087 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:28.089 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:28.091 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:29.033 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:29.035 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:29.037 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:29.125 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:29.126 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:29.126 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:29.868 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:29.869 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:29.872 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:58.266 [info] Getting Manifest... github.copilot
+2025-03-19 17:47:58.268 [info] Getting Manifest... ms-toolsai.jupyter
+2025-03-19 17:47:58.622 [info] Installing extension: ms-toolsai.jupyter {"productVersion":{"version":"1.98.2","date":"2025-03-12T13:31:14.894Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/basic/.vscode/extensions/extensions.json","path":"/home/basic/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-19 17:47:58.624 [info] Installing extension: github.copilot {"productVersion":{"version":"1.98.2","date":"2025-03-12T13:31:14.894Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/basic/.vscode/extensions/extensions.json","path":"/home/basic/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-19 17:47:58.875 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:58.875 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:58.887 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:58.890 [error] Error while installing the extension ms-toolsai.jupyter Cannot read the extension from /home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64 vscode-userdata:/home/basic/.vscode/extensions/extensions.json
+2025-03-19 17:47:58.893 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:58.894 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:58.899 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:47:58.901 [error] Error while installing the extension github.copilot Cannot read the extension from /home/basic/.vscode/extensions/github.copilot-1.288.0 vscode-userdata:/home/basic/.vscode/extensions/extensions.json
+2025-03-19 17:52:29.612 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:52:29.613 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:52:29.623 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:57:29.915 [error] [/home/basic/.vscode/extensions/github.copilot-1.284.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:57:29.916 [error] [/home/basic/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-19 17:57:29.928 [error] [/home/basic/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.

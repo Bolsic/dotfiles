@@ -1,0 +1,3 @@
+! Swap Page Up and Home keys
+keycode 112 = Home NoSymbol Home
+keycode 110 = Prior NoSymbol Prior

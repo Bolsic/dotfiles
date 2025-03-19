@@ -1,0 +1,29 @@
+2025-02-19 10:45:36.932 [info] Telemetry level is off
+2025-02-19 10:45:36.932 [info] Experiments are disabled, only manually opted experiments are active.
+2025-02-19 10:45:36.932 [warning] Dir "/home/basic/Projects/Vavilon/.pixi/envs" is not watchable (directory does not exist)
+2025-02-19 10:45:36.932 [info] Python interpreter path: ./venv310/bin/python
+2025-02-19 10:45:36.945 [info] > pyenv which python
+2025-02-19 10:45:36.945 [info] cwd: .
+2025-02-19 10:45:37.234 [info] > conda info --json
+2025-02-19 10:45:39.502 [info] Starting Pylance language server.
+2025-02-19 10:51:07.954 [info] CreateEnv Trigger - Skipping for /home/basic/Projects/Vavilon/main.py
+2025-02-19 10:51:07.954 [info] Send text to terminal: source /home/basic/Projects/Vavilon/venv310/bin/activate.fish
+2025-02-19 11:48:41.326 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 11:50:28.821 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 12:45:01.791 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 12:45:41.150 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 12:48:40.760 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 12:57:44.887 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:08:14.190 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:20:52.385 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:21:34.352 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:22:52.244 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:23:22.671 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:36:08.826 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:36:55.784 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:37:40.016 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:40:46.443 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:42:25.325 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:43:29.814 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:44:52.500 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py
+2025-02-19 13:47:57.187 [info] Discover tests for workspace name: Vavilon - uri: /home/basic/Projects/Vavilon/audio_translator.py

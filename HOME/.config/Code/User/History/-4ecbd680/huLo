@@ -1,0 +1,36 @@
+# Ignore browser profiles and cache
+.config/google-chrome/
+.cache/
+# Ignore session and runtime files
+.config/session/
+# Ignore runtime directories in apps
+.config/whatsapp-desktop-client/
+.config/audacity/
+.config/spotify/
+.config/pulse/
+.config/libreoffice/
+.config/pavucontrol.ini
+.config/obsidian/
+.config/qBittorrent/
+.config/zoom/
+.config/vlc/
+
+# Ignore dconf databases
+.config/dconf/
+# Ignore glib schemas
+.config/glib-2.0/
+# Ignore ibus configuration
+.config/ibus/
+# Ignore kde.org configuration
+.config/kde.org/
+# Ignore kiorc configuration
+.config/kiorc/
+# Ignore menus configuration
+.config/menus/
+# Ignore Qt Project configuration
+.config/QtProject.conf
+
+# Ignore temporary files
+.tmp/
+.temp/
+.config/trashrc
