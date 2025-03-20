@@ -3,6 +3,7 @@ HOME/.config/google-chrome/
 .cache/
 # Ignore session and runtime files
 HOME/.config/session/
+HOME/.config/Code/
 # Ignore runtime directories in apps
 HOME/.config/whatsapp-desktop-client/
 HOME/.config/audacity/
@@ -37,3 +38,5 @@ HOME/.config/QtProject.conf
 .tmp/
 .temp/
 HOME/.config/trashrc
+
+etc/
