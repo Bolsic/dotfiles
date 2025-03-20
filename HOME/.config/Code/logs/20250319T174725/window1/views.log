@@ -15,3 +15,4 @@
 2025-03-19 17:47:27.881 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
 2025-03-19 17:47:28.042 [info] Added views:makefile.outline in workbench.view.extension.makefile__viewContainer
 2025-03-19 17:47:33.425 [info] Added views:workbench.panel.comments in workbench.panel.comments
+2025-03-19 18:00:32.377 [info] Removed views:workbench.scm.history from workbench.view.scm

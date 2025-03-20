@@ -1,3 +1,0 @@
-2025-02-17 12:46:17.216 [info] Log level: Info
-2025-02-17 13:25:51.890 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for Bolsic/Audio-Dubbing/79f023ece49cb005eed71e2888908cb7a8e0bdf7: TypeError: Cannot read properties of null (reading 'author')
-2025-02-17 13:38:29.656 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for Bolsic/Audio-Dubbing/8705777ee701da6f79b685484847c50d5743eb55: TypeError: Cannot read properties of null (reading 'author')

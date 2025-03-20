@@ -1,7 +1,0 @@
-2025-02-17 12:46:17.396 [info] Getting Manifest... vadimcn.vscode-lldb
-2025-02-17 12:46:18.059 [info] Installing extension: vadimcn.vscode-lldb {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/basic/.vscode/extensions/extensions.json","path":"/home/basic/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
-2025-02-17 12:46:18.577 [info] Extension signature verification result for vadimcn.vscode-lldb: UnknownError. Executed: true. Duration: 26ms.
-2025-02-17 12:46:18.604 [info] Extracted extension to file:///home/basic/.vscode/extensions/vadimcn.vscode-lldb-1.11.4: vadimcn.vscode-lldb
-2025-02-17 12:46:18.609 [info] Renamed to /home/basic/.vscode/extensions/vadimcn.vscode-lldb-1.11.4
-2025-02-17 12:46:18.623 [info] Marked extension as removed vadimcn.vscode-lldb-1.11.3
-2025-02-17 12:46:18.648 [info] Extension installed successfully: vadimcn.vscode-lldb vscode-userdata:/home/basic/.vscode/extensions/extensions.json

@@ -1919,9 +1919,9 @@
             "backupPath": "/home/basic/.config/Code/Backups/0650f1d43723013ff24bc09b850dc527",
             "uiState": {
                 "mode": 1,
-                "x": 1192,
+                "x": 2,
                 "y": 2,
-                "width": 726,
+                "width": 1186,
                 "height": 1050,
                 "zoomLevel": 1
             }
@@ -1950,12 +1950,13 @@
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
+            "titleBarHeight": 35,
             "activityBarWidth": 48,
             "sideBarWidth": 170,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
-    }
+    },
+    "windowControlHeight": 42
 }
