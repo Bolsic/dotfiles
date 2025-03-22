@@ -1,6 +1,7 @@
 # Ignore browser profiles and cache
 HOME/.config/google-chrome/
 .cache/
+.vscode/
 # Ignore session and runtime files
 HOME/.config/session/
 HOME/.config/Code/

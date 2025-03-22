@@ -1,14 +1,15 @@
 #!/bin/bash
+# shellcheck disable=SC2068
 
 function run {
-  if ! pgrep $1 ;
+  if ! pgrep -x $1 ;
   then
-    $@&
+     $@&
   fi
 }
 
 # Start sxhkd
-run sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc 
+# run sxhkd -c $HOME/.config/sxhkd/sxhkdrc 
 
 # Set keyboard layout
 run setxkbmap -layout us,rs -variant ,latinyz -option grp:alt_shift_toggle
@@ -17,7 +18,7 @@ run setxkbmap -layout us,rs -variant ,latinyz -option grp:alt_shift_toggle
 run xmodmap ~/.Xmodmap
 
 # Start hotkey daemon
-run sxhkd -t 1 -c $HOME/.config/bspwm/sxhkd/sxhkdrc
+run sxhkd -t 1 -c "$HOME/.config/sxhkd/sxhkdrc"
 
 # Run picom
 run picom &
@@ -32,5 +33,5 @@ run feh --bg-max ~/Media/Wallpapers/wallpaper-purple-forest.jpeg
 flameshot &
 
 # Init Keyring
-eval $(gnome-keyring-deamon --start)
+eval "$(gnome-keyring-deamon --start)"
 export SSH_AUTH_SOCK
