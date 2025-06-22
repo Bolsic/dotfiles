@@ -16,3 +16,4 @@
 ~/scripts/monitor-detect.sh &
 
 exec bspwm
+exec sxhkd
