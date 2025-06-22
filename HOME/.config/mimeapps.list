@@ -8,3 +8,4 @@ x-scheme-handler/unknown=zen.desktop
 x-scheme-handler/whatsapp=whatsapp-desktop-client.desktop
 application/pdf=zen.desktop
 x-scheme-handler/viber=viber.desktop
+x-scheme-handler/notion=notion-app.desktop

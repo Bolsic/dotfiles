@@ -13,7 +13,7 @@ super + d
 
 # File manager
 super + n
-	spacefm
+	nemo
 
 super + shift + Delete: Return
 	google-chrome-stable
@@ -129,7 +129,11 @@ super + o
 
 # Whatsapp
 super + w
-	whatsapp-desktop-client
+	elecwhat
+	
+# Audio Control
+super + a
+	pavucontrol
 
 
 #### MEDIA

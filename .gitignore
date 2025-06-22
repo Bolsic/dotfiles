@@ -16,6 +16,15 @@ HOME/.config/obsidian/
 HOME/.config/qBittorrent/
 HOME/.config/zoom/
 HOME/.config/vlc/
+HOME/.config/cura/
+HOME/.config/OrcaSlicer/
+HOME/.config/PrusaSlicer/
+HOME/.config/inkscape/
+HOME/.config/notion-app/
+HOME/.config/darktable/
+HOME/.config/elecwhat/
+HOME/.config/github-copilot/
+
 
 # Ignore alacrity themes
 HOME/.config/alacritty/themes/
