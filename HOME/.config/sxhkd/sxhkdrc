@@ -121,7 +121,7 @@ super + v
 
 # Change keyboard combination
 super + alt + k
-	~/Projects/Scripts/change-keyboard-set.sh
+	"$HOME/scripts/change-keyboard-set.sh"
 
 # Obsidian
 super + o
@@ -159,7 +159,7 @@ XF86AudioMute
 
 # Bluetooth selector - select from preexisting bluetooth devices
 super + alt + b
-	~/Projects/Scripts/bluetooth-connect.sh
+	"$HOME/scripts/bluetooth-connect.sh"
 
 # disconnect from bluetooth device
 super + alt + ctrl + b
@@ -167,6 +167,6 @@ super + alt + ctrl + b
 
 # Toggle audio device between bluetooth and speakers
 super + XF86AudioMute 
-	~/Projects/Scripts/toggle-audio-output.sh
+	"$HOME/scripts/toggle-audio-output.sh"
 
 
