@@ -147,9 +147,11 @@ super + XF86MonBrightness{Up,Down}
 super + XF86AudioMicMute
 	redshift -x
 
-
-XF86MonBrightness{Up,Down}
-	brightnessctl s 20{+,-}
+XF86MonBrightnessUp
+	brightnessctl s +10%
+	
+XF86MonBrightnessDown
+	brightnessctl s 10%-
 
 XF86Audio{Raise,Lower}Volume
 	pulsemixer --change-volume {+,-}5
