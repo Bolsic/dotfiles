@@ -15,9 +15,6 @@ super + d
 super + n
 	nemo
 
-super + shift + Delete: Return
-	google-chrome-stable
-
 # lock screen
 super + l
 	xlock -mode xjack
@@ -37,6 +34,14 @@ super + shift + q
 # Kill
 super + shift + ctrl + q
 	bspc node -k
+	
+# Shut Down PC
+super + shift + Delete ; Return
+	sudo shutdown -P now
+	
+# Reboot PC
+super + shift + ctrl + Delete ; Return
+	sudo shutdown -r now
 
 #### WINDOW HANDLING
 
