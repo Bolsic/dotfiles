@@ -146,9 +146,6 @@ super + a
 super + XF86MonBrightness{Up,Down}
 	redshift -O {5500K,7500K}
 
-# super + XF86MonBrightnessUp
-# redshift -O 7500K
-
 super + XF86AudioMicMute
 	redshift -x
 
@@ -156,7 +153,7 @@ XF86MonBrightnessUp
 	brightnessctl s +10%
 	
 XF86MonBrightnessDown
-	brightnessctl s 10%-
+	bash -ic '. "$HOME/scripts/backlight.sh" && down'
 
 XF86Audio{Raise,Lower}Volume
 	pulsemixer --change-volume {+,-}5
@@ -166,7 +163,7 @@ XF86AudioMute
 
 # Bluetooth selector - select from preexisting bluetooth devices
 super + alt + b
-	"$HOME/scripts/bluetooth-connect.sh"
+	"$HOME/scripts/bluetooth-connect-interface.sh"
 
 # disconnect from bluetooth device
 super + alt + ctrl + b
